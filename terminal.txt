@@ -1,0 +1,62 @@
+directory - simple file
+
+ctrl + alt + t = terminal start for ubuntu
+sudo = команда для предоставления прав суперпользователя
+
+ls - command for showing the directory you are in 
+ls -a = command that shows all the hidden and simple files
+ls -l = command that shows all information about files with details
+
+cd test= change directory- command for changing to other files
+cd = command for changing to the home file
+cd .. = command for going to the previous file
+cd ../.. = trnasmision for 2 files back etc
+
+mkdir = command for creating new directory 
+mkdir test/test2 = he will make 2 files but test2 will be inside the first one 
+mkdir test test 2 = makes 2 files in this directory 
+
+touch test.txt = command for creating файл
+
+
+rm test.py = команда для удаления файлов 
+clear =  очищение терминала
+rm -rf файл или директория=  команда для удаления файла.директории
+rmdir "название папки"= команда для удаления пустой папки 
+
+clear/ctr + 1 = команда горячая кнопка для очистки терминала
+
+mv test1.py test/ - перемещает файл test1.txt в папку test (обязательно указываем слеш в конце папки)
+mv test.txt hello.txt - переименовывает файл test.txt into hello.txt
+mv test/ test2/ - переименовыает папку test/ into test2/
+
+history - показывает все команды которые были использованы в этом терминале
+history 10 - показывает последние 10 команд
+history | grep <какоето слово> - показывет все команды с использованием слова в скобках
+         например history | grep test
+
+pwd - (print working directory) - показывает абсолютный путь до текущей директории (начиная с корневой папки)
+
+cat {название файла} - показывает содержимое файла
+              например cat test.txt 
+
+nano test.txt - открывает файл test.txt в редакторе nano, если такого фацла нет он его создаст (в случае если файл не пустой)
+
+ctrl + x, y ENTER - сохранение и выход из редактора нано 
+ctrl + s, ctrl + x 
+
+code test(code test.txt) - открывает в редакторе кода vs-code указанную папку файл
+code . - открывает vs code в текущей директории 
+
+apt - системный установщик пакетов 
+snap - установщиц пакетов но чаще всего приложений
+
+
+
+
+
+
+
+
+
+
